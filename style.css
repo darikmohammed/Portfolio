@@ -25,9 +25,11 @@ h1,
   font-size: 40px;
   font-weight: 700;
 }
+
 ul {
   padding: 0;
 }
+
 li {
   list-style: none;
 }
@@ -40,22 +42,23 @@ p {
 /* button interactions */
 .btn {
   background-color: #36b37f;
-  color: #ffffff;
+  color: #fff;
   font-size: 17px;
   text-align: center;
   padding: 12px;
   border-radius: 4px;
   border: none;
 }
+
 .btn:hover {
-  box-shadow: 0px 8px 16px rgba(54, 179, 127, 0.24);
+  box-shadow: 0 8px 16px rgba(54, 179, 127, 0.24);
 }
 
 .btn:focus {
   background-color: #008552;
 }
 
-/* heading section and nav*/
+/* heading section and nav */
 .mobile-btn {
   border: none;
   background-color: inherit;
@@ -118,6 +121,12 @@ p {
   align-items: center;
   text-align: center;
 }
+
+.about-text h2 {
+  font-size: 40px;
+  margin-bottom: 24px;
+}
+
 .recent-works .text h2 {
   font-weight: 700;
   font-size: 40px;
@@ -129,81 +138,7 @@ p {
   display: grid;
   grid-template-columns: 1fr;
 }
-.recent-works .work-cards .card {
-  margin: 24px 20px;
-  border: 1px solid #d0d9d4;
-  border-radius: 8px;
-}
-.recent-works .work-cards .card .card-text {
-  background-color: #ffffff;
-  margin-top: 250px;
-  border-radius: 8px;
-  padding: 16px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-}
-.recent-works .work-cards .card .card-text h3 {
-  color: #3a4a42;
-  font-weight: 600;
-  font-size: 24px;
-}
 
-.recent-works .work-cards .card .card-text .work-catagories {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: center;
-  gap: 8px;
-}
-
-.recent-works .work-cards .card .card-text .work-catagories li {
-  background-color: #ebf0ee;
-  border-radius: 4px;
-  padding: 8px 12px;
-  font-size: 12px;
-}
-
-.recent-works .work-cards .project-one {
-  background-image: url(./icons/Img-Plaholder.png);
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-/* aboutme section */
-.about-me {
-  display: flex;
-  flex-direction: column;
-  margin: 0;
-}
-.about-me .about-text {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  margin: 0 12px 59px 12px;
-}
-.about-text h2 {
-  font-size: 40px;
-  margin-bottom: 24px;
-}
-
-.about-text p {
-  color: #42526e;
-  font-size: 20px;
-  font-weight: 400;
-  margin-bottom: 36px;
-}
-.about-text button {
-  margin: 0;
-}
-
-.about-cards {
-  margin: 0px 24px;
-  display: grid;
-  grid-template-columns: 1fr;
-}
 .about-cards .card {
   background-color: #ebf0ee;
   border: 1px solid #c1c7d0;
@@ -218,11 +153,97 @@ p {
   align-items: center;
   text-align: center;
 }
+
+.recent-works .work-cards .card {
+  margin: 24px 20px;
+  border: 1px solid #d0d9d4;
+  border-radius: 8px;
+}
+
+.recent-works .work-cards .card .card-text {
+  background-color: #fff;
+  margin-top: 250px;
+  border-radius: 8px;
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.recent-works .work-cards .card .card-text h3 {
+  color: #3a4a42;
+  font-weight: 600;
+  font-size: 24px;
+}
+
+.recent-works .work-cards .card .card-text .work-catagories {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+}
+
+.about-cards .card .about-catagories li {
+  background-color: #fff;
+  padding: 12px;
+  border-radius: 8px;
+  color: #36b37e;
+}
+
+.recent-works .work-cards .card .card-text .work-catagories li {
+  background-color: #ebf0ee;
+  border-radius: 4px;
+  padding: 8px 12px;
+  font-size: 12px;
+}
+
+.recent-works .work-cards .project-one {
+  background-image: url(./icons/Img-Plaholder.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* aboutme section */
+.about-me {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+}
+
+.about-me .about-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 0 12px 59px 12px;
+}
+
+.about-text p {
+  color: #42526e;
+  font-size: 20px;
+  font-weight: 400;
+  margin-bottom: 36px;
+}
+
+.about-text button {
+  margin: 0;
+}
+
+.about-cards {
+  margin: 0 24px;
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
 .about-cards .card .card-discription {
   font-weight: 600;
   font-size: 24px;
   color: #344563;
 }
+
 .about-cards .card .about-catagories {
   display: flex;
   flex-wrap: wrap;
@@ -230,11 +251,4 @@ p {
   align-items: center;
   gap: 8px;
   padding: 0;
-}
-
-.about-cards .card .about-catagories li {
-  background-color: #ffffff;
-  padding: 12px;
-  border-radius: 8px;
-  color: #36b37e;
 }

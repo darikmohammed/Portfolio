@@ -29,8 +29,6 @@ git clone git@github.com:darikmohammed/Portfoilio.git
 
 ### Run tests
 
-### Deployment
-
 ## Authors
 
 👤 **Author1**

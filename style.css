@@ -39,6 +39,7 @@ p {
   border: none;
   background-color: inherit;
 }
+
 .header-container {
   margin: 10px 24px 0 12px;
   display: flex;
@@ -62,12 +63,15 @@ p {
   align-items: center;
   text-align: center;
 }
+
 .main-headline {
   margin-bottom: 0;
 }
+
 .supporting-headline {
   margin: 0;
 }
+
 .primary-color {
   color: var(--primary-color);
 }

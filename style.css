@@ -35,6 +35,25 @@ p {
   font-weight: 400;
 }
 
+/* button interactions */
+.btn {
+  background-color: #36b37f;
+  color: #ffffff;
+  font-size: 17px;
+  text-align: center;
+  padding: 12px;
+  border-radius: 4px;
+  border: none;
+}
+.btn:hover {
+  box-shadow: 0px 8px 16px rgba(54, 179, 127, 0.24);
+}
+
+.btn:focus {
+  background-color: #008552;
+}
+
+/* heading section and nav*/
 .mobile-btn {
   border: none;
   background-color: inherit;
@@ -89,6 +108,21 @@ p {
   align-items: center;
 }
 
+/* my resent works section */
+.recent-works {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.recent-works .text h2 {
+  font-weight: 700;
+  font-size: 40px;
+  color: #172b4d;
+  margin: 24px 26px;
+}
+/* aboutme section */
 .about-me {
   display: flex;
   flex-direction: column;
@@ -116,22 +150,6 @@ p {
 .about-text button {
   margin: 0;
 }
-.btn {
-  background-color: #36b37f;
-  color: #ffffff;
-  font-size: 17px;
-  text-align: center;
-  padding: 12px;
-  border-radius: 4px;
-  border: none;
-}
-.btn:hover {
-  box-shadow: 0px 8px 16px rgba(54, 179, 127, 0.24);
-}
-
-.btn:focus {
-  background-color: #008552;
-}
 
 .about-cards {
   margin: 0px 24px;
@@ -151,6 +169,11 @@ p {
   justify-content: center;
   align-items: center;
   text-align: center;
+}
+.about-cards .card .card-discription {
+  font-weight: 600;
+  font-size: 24px;
+  color: #344563;
 }
 .about-cards .card .about-catagories {
   display: flex;

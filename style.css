@@ -20,7 +20,8 @@ a {
   text-decoration: none;
 }
 
-h1 {
+h1,
+.supporting-headline {
   font-size: 40px;
   font-weight: 700;
 }
@@ -34,6 +35,10 @@ p {
   font-weight: 400;
 }
 
+.mobile-btn {
+  border: none;
+  background-color: inherit;
+}
 .header-container {
   margin: 10px 24px 0 12px;
   display: flex;
@@ -57,11 +62,12 @@ p {
   align-items: center;
   text-align: center;
 }
-
-.headline .primary-headline h2 span {
-  display: block;
+.main-headline {
+  margin-bottom: 0;
 }
-
+.supporting-headline {
+  margin: 0;
+}
 .primary-color {
   color: var(--primary-color);
 }

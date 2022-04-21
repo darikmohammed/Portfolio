@@ -88,3 +88,47 @@ p {
   gap: 20px;
   align-items: center;
 }
+
+.about-me {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+}
+.about-me .about-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 0 12px 59px 12px;
+}
+.about-text h2 {
+  font-size: 40px;
+  margin-bottom: 24px;
+}
+
+.about-text p {
+  color: #42526e;
+  font-size: 20px;
+  font-weight: 400;
+  margin-bottom: 36px;
+}
+.about-text button {
+  margin: 0;
+}
+.btn {
+  background-color: #36b37f;
+  color: #ffffff;
+  font-size: 17px;
+  text-align: center;
+  padding: 12px;
+  border-radius: 4px;
+  border: none;
+}
+.btn:hover {
+  box-shadow: 0px 8px 16px rgba(54, 179, 127, 0.24);
+}
+
+.btn:focus {
+  background-color: #008552;
+}

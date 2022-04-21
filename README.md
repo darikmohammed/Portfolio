@@ -17,17 +17,9 @@
 
 To get a local copy up and running follow these simple example steps.
 
-### Prerequisites
-
 ### Setup
 
 git clone git@github.com:darikmohammed/Portfoilio.git
-
-### Install
-
-### Usage
-
-### Run tests
 
 ## Authors
 

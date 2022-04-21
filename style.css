@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap");
 
 :root {
   --primary-color: #36b37e;
@@ -9,19 +9,21 @@
 }
 
 * {
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
 }
 body {
   margin: 0;
 }
-a{
+a {
   text-decoration: none;
 }
-h2 {
+h1 {
   font-size: 40px;
   font-weight: 700;
 }
-
+li {
+  list-style: none;
+}
 p {
   font-size: 20px;
   font-weight: 400;
@@ -42,10 +44,13 @@ p {
 
 .headline {
   padding: 24px 24px 24px 18px;
-  text-align: center;
   background: url(./icons/header-illsutration-mobile.svg);
   background-repeat: no-repeat;
   background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
 }
 
 .headline .primary-headline h2 span {
@@ -61,6 +66,10 @@ p {
   margin-bottom: 20px;
   display: flex;
   justify-content: center;
+}
+
+.socials {
+  display: flex;
   gap: 20px;
   align-items: center;
 }

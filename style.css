@@ -132,3 +132,38 @@ p {
 .btn:focus {
   background-color: #008552;
 }
+
+.about-cards {
+  margin: 0px 24px;
+  display: grid;
+  grid-template-rows: 1fr;
+}
+.about-cards .card {
+  background-color: #ebf0ee;
+  border: 1px solid #c1c7d0;
+  box-sizing: border-box;
+  border-radius: 8px;
+  margin: 12px 0;
+  padding-top: 40px;
+  padding-bottom: 24px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.about-cards .card .about-catagories {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  padding: 0;
+}
+
+.about-cards .card .about-catagories li {
+  background-color: #ffffff;
+  padding: 12px;
+  border-radius: 8px;
+  color: #36b37e;
+}

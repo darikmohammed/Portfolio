@@ -25,7 +25,9 @@ h1,
   font-size: 40px;
   font-weight: 700;
 }
-
+ul {
+  padding: 0;
+}
 li {
   list-style: none;
 }
@@ -122,6 +124,52 @@ p {
   color: #172b4d;
   margin: 24px 26px;
 }
+
+.recent-works .work-cards {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+.recent-works .work-cards .card {
+  margin: 24px 20px;
+  border: 1px solid #d0d9d4;
+  border-radius: 8px;
+}
+.recent-works .work-cards .card .card-text {
+  background-color: #ffffff;
+  margin-top: 250px;
+  border-radius: 8px;
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.recent-works .work-cards .card .card-text h3 {
+  color: #3a4a42;
+  font-weight: 600;
+  font-size: 24px;
+}
+
+.recent-works .work-cards .card .card-text .work-catagories {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+}
+
+.recent-works .work-cards .card .card-text .work-catagories li {
+  background-color: #ebf0ee;
+  border-radius: 4px;
+  padding: 8px 12px;
+  font-size: 12px;
+}
+
+.recent-works .work-cards .project-one {
+  background-image: url(./icons/Img-Plaholder.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 /* aboutme section */
 .about-me {
   display: flex;
@@ -154,7 +202,7 @@ p {
 .about-cards {
   margin: 0px 24px;
   display: grid;
-  grid-template-rows: 1fr;
+  grid-template-columns: 1fr;
 }
 .about-cards .card {
   background-color: #ebf0ee;

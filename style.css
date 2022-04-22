@@ -211,6 +211,7 @@ p {
   flex-direction: column;
   margin: 0;
 }
+
 .about-me .about-text .about-me-img {
   background-image: url(./icons/Mask-Group.svg);
   position: absolute;
@@ -220,6 +221,7 @@ p {
   width: 68px;
   height: 127px;
 }
+
 .about-me .about-text {
   position: relative;
   display: flex;

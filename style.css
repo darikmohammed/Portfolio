@@ -211,14 +211,26 @@ p {
   flex-direction: column;
   margin: 0;
 }
-
+.about-me .about-text .about-me-img {
+  background-image: url(./icons/Mask-Group.svg);
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 99;
+  width: 68px;
+  height: 127px;
+}
 .about-me .about-text {
+  position: relative;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   text-align: center;
   margin: 0 12px 59px 12px;
+  background-image: url(./icons/illustration-aboutme-mobile.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .about-text p {

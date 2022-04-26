@@ -290,6 +290,11 @@ p {
   align-self: stretch;
 }
 
+.flex-item-2 ul {
+  display: flex;
+  flex-direction: column;
+}
+
 .flex-item-2 .btn {
   align-self: center;
 }

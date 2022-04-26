@@ -266,3 +266,8 @@ p {
   gap: 8px;
   padding: 0;
 }
+
+.flexbox-container{
+  display: flex;
+  flex-direction: column;
+}

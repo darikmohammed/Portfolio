@@ -29,6 +29,10 @@ git clone git@github.com:darikmohammed/Portfoilio.git
 - Twitter: [@twitterhandle](https://twitter.com/r_darik)
 - LinkedIn: [LinkedIn](www.linkedin.com/in/darik-mohammed-57352120b)
 
+👤 **Author2**
+
+- GitHub : [@githubhandle](https://github.com/waqaskanju)
+
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!

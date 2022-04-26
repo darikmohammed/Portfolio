@@ -290,11 +290,6 @@ p {
   align-self: stretch;
 }
 
-.flex-item-2 ul {
-  display: flex;
-  flex-direction: column;
-}
-
 .flex-item-2 .btn {
   align-self: center;
 }
@@ -317,6 +312,7 @@ textarea {
   box-sizing: border-box;
   border-radius: 4px;
   color: #6b778c;
+  margin: 12px 0;
 }
 
 .flex-item-4 {

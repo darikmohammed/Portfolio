@@ -273,6 +273,7 @@ p {
   text-align: center;
   align-items: center;
   margin: 0 24px;
+  position: absolute;
 }
 
 .flex-item-1 {
@@ -284,9 +285,14 @@ p {
 }
 
 .flex-item-2 {
+  display: flex;
+  flex-direction: column;
   align-self: stretch;
 }
 
+.flex-item-2 .btn {
+  align-self: center;
+}
 input {
   background: #fff;
   border: 1px solid #d0d9d4;
@@ -309,4 +315,14 @@ textarea {
 
 .flex-item-4 {
   margin-bottom: 20px;
+}
+
+.contact-bg-img {
+  background-image: url(./icons/Frame.svg);
+  width: 92.81px;
+  height: 132.37px;
+  position: relative;
+  z-index: 999;
+  left: 50%;
+  bottom: 200px;
 }

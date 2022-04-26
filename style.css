@@ -267,7 +267,44 @@ p {
   padding: 0;
 }
 
-.flexbox-container{
+.flex-container {
   display: flex;
   flex-direction: column;
+  text-align: center;
+  align-items: center;
+  margin: 0 24px;
+}
+
+.flex-item-1 {
+  color: #172b4d;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+  text-align: center;
+}
+
+.flex-item-2 {
+  flex: flex;
+}
+input {
+  background: #ffffff;
+  border: 1px solid #d0d9d4;
+  box-sizing: border-box;
+  border-radius: 4px;
+  width: 327px;
+  height: 48px;
+  margin: 12px 0px;
+  color: #6b778c;
+}
+
+textarea {
+  width: 327px;
+  background: #ffffff;
+  border: 1px solid #60c095;
+  box-sizing: border-box;
+  border-radius: 4px;
+  color: #6b778c;
+}
+button {
+  align-self: center;
 }

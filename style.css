@@ -60,6 +60,9 @@ p {
 }
 
 /* heading section and nav */
+.desktop-nav {
+  display: none;
+}
 .mobile-btn {
   border: none;
   background-color: inherit;
@@ -334,5 +337,37 @@ textarea {
   .mobile-menu-btn,
   .logo {
     display: none;
+  }
+  header {
+    background-color: rgba(0, 0, 0, 0);
+  }
+  .header-container {
+    display: flex;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0);
+  }
+  .desktop-nav {
+    display: block;
+    display: flex;
+  }
+  .desktop-nav ul {
+    display: flex;
+    color: #172b4d;
+    gap: 30px;
+  }
+
+  .headline {
+    background-image: url(./icons/desktop/Header-llustration-desktop@2x.svg);
+    padding: 180px 260px;
+    padding-bottom: 330px;
+  }
+  .recent-works {
+    margin-bottom: 190px;
+  }
+  .recent-works .work-cards {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+  .about-me p {
+    margin: 20px 260px 36px 260px;
   }
 }

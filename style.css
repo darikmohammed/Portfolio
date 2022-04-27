@@ -370,4 +370,13 @@ textarea {
   .about-me p {
     margin: 20px 260px 36px 260px;
   }
+  .about-cards {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 24px;
+    margin-right: 140px;
+    margin-left: 140px;
+  }
+  .about-me {
+    margin-bottom: 160px;
+  }
 }

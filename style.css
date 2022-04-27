@@ -379,4 +379,13 @@ textarea {
   .about-me {
     margin-bottom: 160px;
   }
+  .form-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+    margin: 0 135px;
+  }
+  .flex-item-2 .btn {
+    align-self: flex-start;
+  }
 }

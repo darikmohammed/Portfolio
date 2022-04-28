@@ -347,7 +347,6 @@ textarea {
     background-color: rgba(0, 0, 0, 0);
   }
   .desktop-nav {
-    display: block;
     display: flex;
   }
   .desktop-nav ul {
@@ -360,12 +359,22 @@ textarea {
     background-image: url(./icons/desktop/Header-llustration-desktop@2x.svg);
     padding: 180px 260px;
     padding-bottom: 330px;
+    margin-bottom: 100px;
+  }
+  .socials {
+    margin-bottom: 84px;
   }
   .recent-works {
     margin-bottom: 190px;
   }
   .recent-works .work-cards {
     grid-template-columns: 1fr 1fr 1fr;
+    gap: 32px 24px;
+    margin-left: 140px;
+    margin-right: 140px;
+  }
+  .recent-works .work-cards .card {
+    margin: 0;
   }
   .about-me p {
     margin: 20px 260px 36px 260px;

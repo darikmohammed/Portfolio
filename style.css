@@ -325,6 +325,7 @@ textarea {
 
 .contact-bg-img {
   background-image: url(./icons/Frame.svg);
+  background-repeat: no-repeat;
   width: 92.81px;
   height: 132.37px;
   position: relative;
@@ -412,5 +413,32 @@ textarea {
   }
   .flex-item-2 .btn {
     align-self: flex-start;
+  }
+
+  .contact-img-left-1 {
+    background-image: url(./icons/desktop/illustration-1-contact-form-desktop.svg);
+    background-repeat: no-repeat;
+    position: relative;
+    width: 235px;
+    height: 261px;
+    left: -30%;
+    z-index: 999;
+  }
+
+  .contact-img-left-2 {
+    background-image: url(./icons/desktop/illustration-2-contact-form-desktop.svg);
+    background-repeat: no-repeat;
+    position: relative;
+    width: 130px;
+    height: 105px;
+    left: -15%;
+    bottom: 130px;
+  }
+  .contact-bg-img {
+    background-image: url(./icons/desktop/contact-form-illustratoin-3-desktop.svg);
+    width: 314px;
+    height: 449px;
+    left: 40%;
+    bottom: 700px;
   }
 }

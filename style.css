@@ -458,3 +458,13 @@ textarea {
     bottom: 700px;
   }
 }
+
+/*Animation */
+
+.animate li:hover{
+  animation: bcolor 2s;
+}
+
+@keyframes bcolor  {
+to { background-color: yellow; }  
+}

@@ -63,6 +63,7 @@ p {
 .desktop-nav {
   display: none;
 }
+
 .mobile-btn {
   border: none;
   background-color: inherit;
@@ -339,17 +340,21 @@ textarea {
   .logo {
     display: none;
   }
+
   header {
     background-color: rgba(0, 0, 0, 0);
   }
+
   .header-container {
     display: flex;
     justify-content: center;
     background-color: rgba(0, 0, 0, 0);
   }
+
   .desktop-nav {
     display: flex;
   }
+
   .desktop-nav ul {
     display: flex;
     color: #172b4d;
@@ -362,33 +367,41 @@ textarea {
     padding-bottom: 330px;
     margin-bottom: 100px;
   }
+
   .socials {
     margin-bottom: 84px;
   }
+
   .recent-works {
     margin-bottom: 190px;
   }
+
   .recent-works .work-cards {
     grid-template-columns: 1fr 1fr 1fr;
     gap: 32px 24px;
     margin-left: 140px;
     margin-right: 140px;
   }
+
   .recent-works .work-cards .card {
     margin: 0;
   }
+
   .about-me p {
     margin: 20px 260px 36px 260px;
   }
+
   .about-cards {
     grid-template-columns: repeat(3, 1fr);
     gap: 24px;
     margin-right: 140px;
     margin-left: 140px;
   }
+
   .about-me {
     margin-bottom: 160px;
   }
+
   .about-me .about-text .about-me-img {
     background-image: url(./icons/desktop/Aboutme-Framer-right.svg);
     background-repeat: no-repeat;
@@ -405,12 +418,14 @@ textarea {
     height: 129px;
     left: -40%;
   }
+
   .form-container {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 24px;
     margin: 0 135px;
   }
+
   .flex-item-2 .btn {
     align-self: flex-start;
   }
@@ -434,6 +449,7 @@ textarea {
     left: -15%;
     bottom: 130px;
   }
+
   .contact-bg-img {
     background-image: url(./icons/desktop/contact-form-illustratoin-3-desktop.svg);
     width: 314px;

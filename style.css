@@ -388,6 +388,22 @@ textarea {
   .about-me {
     margin-bottom: 160px;
   }
+  .about-me .about-text .about-me-img {
+    background-image: url(./icons/desktop/Aboutme-Framer-right.svg);
+    background-repeat: no-repeat;
+    width: 273px;
+    height: 245px;
+  }
+
+  .about-me .about-text .about-me-left-img {
+    background-image: url(./icons/desktop/illustration-about-me-left-desktop.svg);
+    background-repeat: no-repeat;
+    position: relative;
+    z-index: 99;
+    width: 288px;
+    height: 129px;
+    left: -40%;
+  }
   .form-container {
     display: grid;
     grid-template-columns: repeat(2, 1fr);

@@ -461,10 +461,12 @@ textarea {
 
 /*Animation */
 
-.animate li:hover{
+.animate li:hover {
   animation: bcolor 2s;
 }
 
-@keyframes bcolor  {
-to { background-color: yellow; }  
+@keyframes bcolor {
+  to {
+    font-weight: bold;
+  }
 }

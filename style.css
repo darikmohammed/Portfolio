@@ -119,6 +119,16 @@ p {
 }
 
 /* my resent works section */
+.card {
+  transition-duration: 1s;
+}
+
+.card:hover {
+  transform: scale(1.05);
+  transition-delay: 0.1s;
+  transition-duration: 1s;
+}
+
 .recent-works {
   display: flex;
   flex-direction: column;
@@ -130,6 +140,10 @@ p {
 .about-text h2 {
   font-size: 40px;
   margin-bottom: 24px;
+}
+
+.animate li:hover {
+  animation: bcolor 2s;
 }
 
 .recent-works .text h2 {
@@ -334,14 +348,6 @@ textarea {
   left: 50%;
   bottom: 200px;
 }
-.card {
-  transition-duration: 1s;
-}
-.card:hover {
-  transform: scale(1.05);
-  transition-delay: 0.1s;
-  transition-duration: 1s;
-}
 
 .action {
   -webkit-animation: bounce-top 1.5s steps(2, end) infinite both;
@@ -356,50 +362,64 @@ textarea {
     animation-timing-function: ease-in;
     opacity: 1;
   }
+
   24% {
     opacity: 1;
   }
+
   40% {
     -webkit-transform: translateY(-24px);
     transform: translateY(-24px);
     -webkit-animation-timing-function: ease-in;
     animation-timing-function: ease-in;
   }
+
   65% {
     -webkit-transform: translateY(-12px);
     transform: translateY(-12px);
     -webkit-animation-timing-function: ease-in;
     animation-timing-function: ease-in;
   }
+
   82% {
     -webkit-transform: translateY(-6px);
     transform: translateY(-6px);
     -webkit-animation-timing-function: ease-in;
     animation-timing-function: ease-in;
   }
+
   93% {
     -webkit-transform: translateY(-4px);
     transform: translateY(-4px);
     -webkit-animation-timing-function: ease-in;
     animation-timing-function: ease-in;
   }
+
   25%,
   55%,
   75%,
   87% {
-    -webkit-transform: translateY(0px);
-    transform: translateY(0px);
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
     -webkit-animation-timing-function: ease-out;
     animation-timing-function: ease-out;
   }
+
   100% {
-    -webkit-transform: translateY(0px);
-    transform: translateY(0px);
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
     -webkit-animation-timing-function: ease-out;
     animation-timing-function: ease-out;
     opacity: 1;
   }
 }
+
+@keyframes bcolor {
+  to {
+    font-weight: bold;
+  }
+}
+
 @media (min-width: 768px) {
   .mobile-menu-btn,
   .logo {
@@ -524,14 +544,4 @@ textarea {
   }
 }
 
-/*Animation */
-
-.animate li:hover {
-  animation: bcolor 2s;
-}
-
-@keyframes bcolor {
-  to {
-    font-weight: bold;
-  }
-}
+/* Animation */

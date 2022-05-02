@@ -18,8 +18,23 @@
 To get a local copy up and running follow these simple example steps.
 
 ### Setup
+#### Download the file to local directory
+- If you have already install github in your local pc run:
+
+```sh
 
 git clone git@github.com:darikmohammed/Portfoilio.git
+
+```
+- Or download the zip file from the github directory. 
+
+#### Run
+
+```sh
+ npm install
+```
+
+- open in live server form the local directory
 
 ## Authors
 

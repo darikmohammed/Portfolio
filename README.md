@@ -29,17 +29,18 @@ git clone git@github.com:darikmohammed/Portfoilio.git
 - Twitter: [@twitterhandle](https://twitter.com/r_darik)
 - LinkedIn: [LinkedIn](www.linkedin.com/in/darik-mohammed-57352120b)
 
-👤 **Waqas Ahmad**
-
-- GitHub : [@githubhandle](https://github.com/waqaskanju)
-- LinkedIn: [LinkedIn](https://www.linkedin.com/in/waqaskanju/)
-
-
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!
 
 Feel free to check the [issues page](../../issues/).
+
+## 🤝 Contributor
+
+👤 **Waqas Ahmad**
+
+- GitHub : [@githubhandle](https://github.com/waqaskanju)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/waqaskanju/)
 
 ## Show your support
 

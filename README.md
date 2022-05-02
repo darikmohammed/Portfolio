@@ -4,10 +4,17 @@
 
 > A portfolio website with own recent worked project.
 
+![darikmohammed github io_Portfoilio_ (1)](https://user-images.githubusercontent.com/56404835/166323617-8cadd3d1-e39e-4938-85df-b13770eb2012.png)
+
+```sh
+The Template is provided by Microverse Inc. 
+```
+
 ## Built With
 
 - HTML
 - CSS
+- Javascript
 
 ## Live Demo (if available)
 

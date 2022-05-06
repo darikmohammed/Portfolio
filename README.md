@@ -49,7 +49,7 @@ git clone git@github.com:darikmohammed/Portfoilio.git
 
 - GitHub: [@githubhandle](https://github.com/darikmohammed)
 - Twitter: [@twitterhandle](https://twitter.com/r_darik)
-- LinkedIn: [LinkedIn](www.linkedin.com/in/darik-mohammed-57352120b)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/darik-mohammed-57352120b/)
 
 ## 🤝 Contributing
 

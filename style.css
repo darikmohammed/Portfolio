@@ -60,8 +60,34 @@ p {
 }
 
 /* heading section and nav */
+
 .desktop-nav {
+  /* display: flex; */
   display: none;
+  flex-direction: column;
+  width: 100%;
+  height: 95vh;
+  background-color: #fff;
+  box-shadow: 0 48px 48px rgba(37, 47, 137, 0.08);
+  border-radius: 16px;
+}
+
+.desktop-nav ul {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 40px;
+  margin-top: 40px;
+  padding-left: 30px;
+  font-size: 32px;
+  color: #3a4a42;
+}
+
+.desktop-nav .mobile-close-btn {
+  align-self: flex-end;
+  margin-top: 20px;
+  padding-right: 40px;
 }
 
 .mobile-btn {
@@ -438,10 +464,20 @@ textarea {
 
   .desktop-nav {
     display: flex;
+    height: auto;
+    border-radius: 0;
+    box-shadow: none;
+  }
+
+  .desktop-nav .mobile-close-btn {
+    display: none;
   }
 
   .desktop-nav ul {
     display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-size: 16px;
     color: #172b4d;
     gap: 30px;
   }

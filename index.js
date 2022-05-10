@@ -13,11 +13,13 @@ mobileMenuClose.addEventListener('click', () => {
   document.querySelector('.desktop-nav').style.display = 'none';
 });
 
-const menuListItems = document.querySelector('.animate');
+const menuListItems = document.querySelectorAll('.animate li');
 
-menuListItems.addEventListener('click', () => {
-  document.querySelector('.logo').style.display = 'block';
-  document.querySelector('.mobile-menu-btn').style.display = 'block';
-  document.querySelector('.desktop-nav').style.display = 'none';
-  window.location.reload();
+menuListItems.forEach((link) => {
+    link.addEventListener('click', () => {
+
+      document.querySelector('.logo').style.display = 'block';
+      document.querySelector('.mobile-menu-btn').style.display = 'block';
+      document.querySelector('.desktop-nav').style.display = 'none';
+  });
 });

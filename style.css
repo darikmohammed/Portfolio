@@ -73,15 +73,16 @@ p {
   animation: navLinkFade 1s ease;
 }
 
-@keyframes navLinkFade{
-	from{
-		opacity: 0;
-		transform: translateX(50px);
-	}
-	to{
-		opacity: 1;
-		transform: translateX(0px);
-	}
+@keyframes navLinkFade {
+  from {
+    opacity: 0;
+    transform: translateX(50px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
 }
 
 .desktop-nav ul {

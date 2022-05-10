@@ -16,10 +16,9 @@ mobileMenuClose.addEventListener('click', () => {
 const menuListItems = document.querySelectorAll('.animate li');
 
 menuListItems.forEach((link) => {
-    link.addEventListener('click', () => {
-
-      document.querySelector('.logo').style.display = 'block';
-      document.querySelector('.mobile-menu-btn').style.display = 'block';
-      document.querySelector('.desktop-nav').style.display = 'none';
+  link.addEventListener('click', () => {
+    document.querySelector('.logo').style.display = 'block';
+    document.querySelector('.mobile-menu-btn').style.display = 'block';
+    document.querySelector('.desktop-nav').style.display = 'none';
   });
 });

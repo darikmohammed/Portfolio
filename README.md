@@ -64,6 +64,12 @@ Feel free to check the [issues page](../../issues/).
 - GitHub : [@githubhandle](https://github.com/waqaskanju)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/waqaskanju/)
 
+👤 **NduatiKagiri**
+
+GitHub: https://github.com/NduatiKagiri
+Twitter: https://twitter.com/NduatiKagiri
+LinkedIn: https://linkedin.com/in/nduati-kagiri-5414a4225/
+
 ## Show your support
 
 Give a ⭐️ if you like this project!

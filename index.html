@@ -11,24 +11,27 @@
     <header>
       <div class="header-container">
         <div class="logo">
-          <a href="#" id="welcome-logo">Welcome</a>
+          <a href="#Home" id="welcome-logo">Welcome</a>
         </div>
         <nav class="mobile-menu-btn">
-          <button type="button" class="mobile-btn">
+          <button type="button" class="mobile-btn mobile-hamburger-btn">
             <img src="./icons/mobile-menu-btn.svg" alt="mobile menu" />
           </button>
         </nav>
         <nav class="desktop-nav">
+          <button type="button" class="mobile-btn mobile-close-btn">
+            <img src="./icons/Icon-Cancel.png" alt="mobile close button" />
+          </button>
           <ul class="animate">
-            <li><a href="#">Portoflio</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Contact</a></li>
+            <li><a href="#Portoflio">Portoflio</a></li>
+            <li><a href="#About">About</a></li>
+            <li><a href="#Contact">Contact</a></li>
           </ul>
         </nav>
       </div>
     </header>
     <main>
-      <section class="headline">
+      <section id="Home" class="headline">
         <div class="primary-headline">
           <h1 class="main-headline">Hey there. I'm Darik</h1>
           <h2 class="primary-color supporting-headline">
@@ -63,12 +66,12 @@
             </li>
           </ul>
         </div>
-        <div class="action">
+        <a href="#Portoflio" class="action">
           <img src="./icons/Action.svg" alt="action" />
-        </div>
+        </a>
       </section>
 
-      <section class="recent-works">
+      <section id="Portoflio" class="recent-works">
         <div class="text">
           <h2>My Recent Works</h2>
           <img src="./icons/Indicator.svg" alt="Recent works indicator" />
@@ -149,7 +152,7 @@
         </div>
       </section>
 
-      <section class="about-me">
+      <section id="About" class="about-me">
         <div class="about-text">
           <div class="about-me-img"></div>
           <h2>About me</h2>
@@ -199,7 +202,7 @@
     </main>
     <!-- Contact form Start here -->
     <footer>
-      <section class="flex-container">
+      <section id="Contact" class="flex-container">
         <div class="form-container">
           <h2 class="flex-item-1">
             I'm always interested in hearing about new projects, so if you'd
@@ -261,5 +264,6 @@
         <div class="contact-bg-img"></div>
       </section>
     </footer>
+    <script src="index.js"></script>
   </body>
 </html>

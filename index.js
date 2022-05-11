@@ -2,7 +2,25 @@ const mobileMenuOpen = document.querySelector('.mobile-hamburger-btn');
 const mobileMenuClose = document.querySelector('.mobile-close-btn');
 const projects = [
   {
-    name: 'Project ABC',
+    name: 'Keeping track of hundreds of components',
+    technologies: ['Codekit', 'Github', 'JavaScript'],
+    featuredImage: 'Portfolio1.png',
+    description:
+      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy.",
+    liveLink: '#',
+    linkSource: '#',
+  },
+  {
+    name: 'Keeping track of hundreds of components',
+    technologies: ['Codekit', 'Github', 'JavaScript'],
+    featuredImage: 'Portfolio1.png',
+    description:
+      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer ",
+    liveLink: '#',
+    linkSource: '#',
+  },
+  {
+    name: 'Keeping track of hundreds of components',
     technologies: ['Codekit', 'Github', 'JavaScript'],
     featuredImage: 'Portfolio1.png',
     description:
@@ -12,14 +30,7 @@ const projects = [
   },
   {
     name: 'Keeping track of hundreds of components',
-    technologies: [
-      'Codekit',
-      'Github',
-      'JavaScript',
-      'Bootstrap',
-      'Terminal',
-      'Codepen',
-    ],
+    technologies: ['Codekit', 'Github', 'JavaScript'],
     featuredImage: 'Portfolio1.png',
     description:
       "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea",
@@ -28,14 +39,7 @@ const projects = [
   },
   {
     name: 'Keeping track of hundreds of components',
-    technologies: [
-      'Codekit',
-      'Github',
-      'JavaScript',
-      'Bootstrap',
-      'Terminal',
-      'Codepen',
-    ],
+    technologies: ['Codekit', 'Github', 'JavaScript'],
     featuredImage: 'Portfolio1.png',
     description:
       "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea",
@@ -44,46 +48,7 @@ const projects = [
   },
   {
     name: 'Keeping track of hundreds of components',
-    technologies: [
-      'Codekit',
-      'Github',
-      'JavaScript',
-      'Bootstrap',
-      'Terminal',
-      'Codepen',
-    ],
-    featuredImage: 'Portfolio1.png',
-    description:
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea",
-    liveLink: '#',
-    linkSource: '#',
-  },
-  {
-    name: 'Keeping track of hundreds of components',
-    technologies: [
-      'Codekit',
-      'Github',
-      'JavaScript',
-      'Bootstrap',
-      'Terminal',
-      'Codepen',
-    ],
-    featuredImage: 'Portfolio1.png',
-    description:
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea",
-    liveLink: '#',
-    linkSource: '#',
-  },
-  {
-    name: 'Keeping track of hundreds of components',
-    technologies: [
-      'Codekit',
-      'Github',
-      'JavaScript',
-      'Bootstrap',
-      'Terminal',
-      'Codepen',
-    ],
+    technologies: ['Codekit', 'Github', 'JavaScript'],
     featuredImage: 'Portfolio1.png',
     description:
       "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea",

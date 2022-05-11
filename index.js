@@ -141,7 +141,7 @@ function generateWorkCard() {
         <ul class="work-catagories">
                 ${technology}
         </ul>
-        <button type="button" data-index="${index} class="btn">See Project</button>
+        <button type="button" data-index="${index}" class="btn">See Project</button>
       </div>
     </div>
     `;

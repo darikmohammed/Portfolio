@@ -7,7 +7,7 @@
 ![darikmohammed github io_Portfoilio_ (1)](https://user-images.githubusercontent.com/56404835/166323617-8cadd3d1-e39e-4938-85df-b13770eb2012.png)
 
 ```sh
-The Template is provided by Microverse Inc. 
+The Template is provided by Microverse Inc.
 ```
 
 ## Built With
@@ -25,7 +25,9 @@ The Template is provided by Microverse Inc.
 To get a local copy up and running follow these simple example steps.
 
 ### Setup
+
 #### Download the file to local directory
+
 - If you have already install github in your local pc run:
 
 ```sh
@@ -33,7 +35,8 @@ To get a local copy up and running follow these simple example steps.
 git clone git@github.com:darikmohammed/Portfoilio.git
 
 ```
-- Or download the zip file from the github directory. 
+
+- Or download the zip file from the github directory.
 
 #### Run
 
@@ -66,9 +69,9 @@ Feel free to check the [issues page](../../issues/).
 
 👤 **NduatiKagiri**
 
-GitHub: https://github.com/NduatiKagiri
-Twitter: https://twitter.com/NduatiKagiri
-LinkedIn: https://linkedin.com/in/nduati-kagiri-5414a4225/
+- GitHub: https://github.com/NduatiKagiri
+- Twitter: https://twitter.com/NduatiKagiri
+- LinkedIn: https://linkedin.com/in/nduati-kagiri-5414a4225/
 
 ## Show your support
 

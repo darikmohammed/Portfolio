@@ -142,3 +142,48 @@ function generateWorkCard() {
 
 generateWorkCard();
 
+//Popup modals.
+const popupModals = document.querySelectorAll(".popup-window");
+const closeModal = document.querySelector(".close-modal-btn");
+popupModals.forEach((modal) => [
+  modal.addEventListener("click", () => {
+    openModal(modal);
+  }),
+]);
+function openModal(element) {
+  const projectIndex = element.dataset.index;
+  document.querySelector(".modal-header").textContent =
+    projects[projectIndex].name;
+  document
+    .querySelector(".modal-project-image")
+    .setAttribute(
+      "src",
+      `./icons/Projects/${projects[projectIndex].featuredImage}`
+    );
+  document
+    .querySelector(".modal-project-image")
+    .setAttribute("alt", `${projects[projectIndex].name}`);
+  document
+    .querySelector(".moblie-see-live-btn")
+    .setAttribute("href", `${projects[projectIndex].liveLink}`);
+  document
+    .querySelector(".moblie-see-source-btn")
+    .setAttribute("href", `${projects[projectIndex].linkSource}`);
+  document
+    .querySelector(".desktop-see-live-btn")
+    .setAttribute("href", `${projects[projectIndex].liveLink}`);
+  document
+    .querySelector(".desktop-see-source-btn")
+    .setAttribute("href", `${projects[projectIndex].linkSource}`);
+  let technology = "";
+  projects[projectIndex].technologies.forEach((tech) => {
+    technology += `<div class="tag">${tech}</div>`;
+  });
+  document.querySelector(".project-codekit .tags").innerHTML = technology;
+  document.querySelector(".modal-project-description").textContent =
+    projects[projectIndex].description;
+  document.querySelector(".modal").style.display = "flex";
+}
+closeModal.addEventListener("click", () => {
+  document.querySelector(".modal").style.display = "none";
+});

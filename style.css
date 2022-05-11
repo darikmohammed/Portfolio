@@ -261,22 +261,27 @@ p {
 }
 
 /* project-modal */
+.desktop-view-btn {
+  display: none;
+}
+.mobile-view-btn {
+  display: block;
+}
 .modal {
+  display: none;
   position: fixed;
   z-index: 999;
-  left: 1rem;
-  top: 1.25rem;
+  left: 6%;
+  top: 2%;
   width: 80%;
   height: 94vh;
   background-color: #ffffff;
   border: 1px solid #dfe1e6;
   border-radius: 16px;
   text-align: left;
-  display: flex;
   flex-direction: column;
   padding: 10px;
   overflow: auto;
-  display: none;
 }
 .modal .close-modal-btn {
   align-self: flex-end;
@@ -307,7 +312,6 @@ p {
   flex-wrap: wrap;
   gap: 0.5rem;
 }
-
 .project-codekit .tags .tag {
   background-color: #ebf0ee;
   color: #3a4a42;
@@ -661,15 +665,23 @@ textarea {
     left: 40%;
     bottom: 700px;
   }
+  .desktop-view-btn {
+    display: block;
+  }
+  .mobile-view-btn {
+    display: none;
+  }
   .modal {
-    left: 10rem;
-    top: 1rem;
+    left: 10%;
+    top: 2%;
   }
   .modal .project-img img {
-    width: 100%;
-    height: 500px;
+    max-width: 100%;
+    width: 60rem;
+    height: 31rem;
   }
   .modal .project-intro {
+    position: static;
     display: grid;
     grid-template-columns: 70% 30%;
     align-items: center;

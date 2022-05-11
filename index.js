@@ -2,19 +2,12 @@ const mobileMenuOpen = document.querySelector(".mobile-hamburger-btn");
 const mobileMenuClose = document.querySelector(".mobile-close-btn");
 const projects = [
   {
-    name: "Keeping track of hundreds of components",
-    technologies: [
-      "Codekit",
-      "Github",
-      "JavaScript",
-      "Bootstrap",
-      "Terminal",
-      "Codepen",
-    ],
+    name: "Project ABC",
+    technologies: ["Codekit", "Github", "JavaScript"],
     featuredImage: "Portfolio1.png",
     description:
       "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea",
-    liveLive: "#",
+    liveLink: "#",
     linkSource: "#",
   },
   {
@@ -30,7 +23,7 @@ const projects = [
     featuredImage: "Portfolio1.png",
     description:
       "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea",
-    liveLive: "#",
+    liveLink: "#",
     linkSource: "#",
   },
   {
@@ -46,7 +39,7 @@ const projects = [
     featuredImage: "Portfolio1.png",
     description:
       "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea",
-    liveLive: "#",
+    liveLink: "#",
     linkSource: "#",
   },
   {
@@ -62,7 +55,7 @@ const projects = [
     featuredImage: "Portfolio1.png",
     description:
       "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea",
-    liveLive: "#",
+    liveLink: "#",
     linkSource: "#",
   },
   {
@@ -78,7 +71,7 @@ const projects = [
     featuredImage: "Portfolio1.png",
     description:
       "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea",
-    liveLive: "#",
+    liveLink: "#",
     linkSource: "#",
   },
   {
@@ -94,7 +87,7 @@ const projects = [
     featuredImage: "Portfolio1.png",
     description:
       "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea",
-    liveLive: "#",
+    liveLink: "#",
     linkSource: "#",
   },
 ];
@@ -130,7 +123,6 @@ function generateWorkCard() {
     project.technologies.forEach((tech) => {
       technology += `<li>${tech}</li>`;
     });
-    console.log(technology);
     document.querySelector(".work-cards").innerHTML += `
     <div class="card">
       <div class="project-img">
@@ -141,7 +133,7 @@ function generateWorkCard() {
         <ul class="work-catagories">
                 ${technology}
         </ul>
-        <button type="button" data-index="${index}" class="btn">See Project</button>
+        <button type="button" data-index="${index}" class="btn popup-window">See Project</button>
       </div>
     </div>
     `;
@@ -149,3 +141,4 @@ function generateWorkCard() {
 }
 
 generateWorkCard();
+

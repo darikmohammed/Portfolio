@@ -221,7 +221,6 @@ p {
 
 .recent-works .work-cards .card .card-text {
   background-color: #fff;
-  margin-top: 250px;
   border-radius: 8px;
   padding: 16px;
   display: flex;
@@ -229,7 +228,10 @@ p {
   align-items: center;
   justify-content: center;
 }
-
+.card .project-img img {
+  height: 250px;
+  width: 100%;
+}
 .recent-works .work-cards .card .card-text h3 {
   color: #3a4a42;
   font-weight: 600;
@@ -258,11 +260,6 @@ p {
   font-size: 12px;
 }
 
-.recent-works .work-cards .project-one {
-  background-image: url(./icons/Img-Plaholder.png);
-  background-repeat: no-repeat;
-  background-size: cover;
-}
 /* project-modal */
 .modal {
   position: fixed;
@@ -279,6 +276,7 @@ p {
   flex-direction: column;
   padding: 10px;
   overflow: auto;
+  display: none;
 }
 .modal .close-modal-btn {
   align-self: flex-end;
@@ -669,7 +667,7 @@ textarea {
   }
   .modal .project-img img {
     width: 100%;
-    height: 400px;
+    height: 500px;
   }
   .modal .project-intro {
     display: grid;

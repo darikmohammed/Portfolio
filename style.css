@@ -228,10 +228,12 @@ p {
   align-items: center;
   justify-content: center;
 }
+
 .card .project-img img {
   height: 250px;
   width: 100%;
 }
+
 .recent-works .work-cards .card .card-text h3 {
   color: #3a4a42;
   font-weight: 600;
@@ -264,9 +266,12 @@ p {
 .desktop-view-btn {
   display: none;
 }
+
 .mobile-view-btn {
-  display: block;
+  display: flex;
+  gap: 12px;
 }
+
 .modal {
   display: none;
   position: fixed;
@@ -275,7 +280,7 @@ p {
   top: 2%;
   width: 80%;
   height: 94vh;
-  background-color: #ffffff;
+  background-color: #fff;
   border: 1px solid #dfe1e6;
   border-radius: 16px;
   text-align: left;
@@ -283,20 +288,24 @@ p {
   padding: 10px;
   overflow: auto;
 }
+
 .modal .close-modal-btn {
   align-self: flex-end;
   border: none;
-  background-color: #ffffff;
+  background-color: #fff;
 }
+
 .modal .project-img {
   align-self: center;
   display: flex;
   justify-content: center;
 }
+
 .modal .project-img img {
   width: 100%;
   height: 220px;
 }
+
 .project-intro .project-title h2 {
   font-weight: 600;
   font-size: 2rem;
@@ -307,11 +316,13 @@ p {
   display: flex;
   margin-top: 0.75rem;
 }
+
 .project-codekit .tags {
   display: flex;
   flex-wrap: wrap;
   gap: 0.5rem;
 }
+
 .project-codekit .tags .tag {
   background-color: #ebf0ee;
   color: #3a4a42;
@@ -327,15 +338,18 @@ p {
   font-size: 12px;
   text-align: center;
 }
+
 .project-btn .btn img {
   width: 12px;
   height: 12px;
 }
+
 .project-description p {
   font-size: 16px;
   font-weight: 400;
   color: #344563;
 }
+
 /* aboutme section */
 .about-me {
   display: flex;
@@ -665,30 +679,32 @@ textarea {
     left: 40%;
     bottom: 700px;
   }
+
   .desktop-view-btn {
-    display: block;
+    display: flex;
+    gap: 12px;
   }
+
   .mobile-view-btn {
     display: none;
   }
+
   .modal {
     left: 10%;
     top: 2%;
   }
+
   .modal .project-img img {
     max-width: 100%;
     width: 60rem;
     height: 31rem;
   }
+
   .modal .project-intro {
     position: static;
     display: grid;
     grid-template-columns: 70% 30%;
     align-items: center;
-  }
-  .project-btn {
-    display: flex;
-    gap: 12px;
   }
 }
 

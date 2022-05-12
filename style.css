@@ -66,6 +66,7 @@ p {
 #message_error,
 #name_error {
   align-self: flex-start;
+  display: none;
 }
 /* heading section and nav */
 

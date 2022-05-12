@@ -169,5 +169,27 @@ form.addEventListener('submit', (event) => {
   } else {
     errorEmail.style.display = 'none';
     form.submit();
+    localStorage.removeItem('data');
   }
 });
+
+// localStorage
+form.addEventListener('keyup', () => {
+  const data = {
+    name: document.getElementById('name').value,
+    email: document.getElementById('email').value,
+    message: document.getElementById('message').value,
+  };
+  localStorage.setItem('data', JSON.stringify(data));
+});
+
+function getData() {
+  const data = JSON.parse(localStorage.getItem('data'));
+
+  if (data) {
+    document.getElementById('name').value = data.name;
+    document.getElementById('email').value = data.email;
+    document.getElementById('message').value = data.message;
+  }
+}
+getData();

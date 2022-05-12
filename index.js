@@ -153,3 +153,24 @@ popupModals.forEach((modal) => [
 closeModal.addEventListener("click", () => {
   document.querySelector(".modal").style.display = "none";
 });
+
+//email validate
+const form = document.querySelector("#contact-form");
+const errorEmail = document.querySelector("#email_error");
+function validateEmail(input) {
+  let emailRegex =
+    /^[a-z_\-0-9\.\*\#\$\!\~\%\^\&\-\+\?\|]+@+[a-z\-0-9]+(.com)$/gm;
+  return emailRegex.test(input);
+}
+form.addEventListener("submit", (event) => {
+  event.preventDefault();
+  let emailValid = validateEmail(form.elements["email"].value);
+  //if valid email
+  if (!emailValid) {
+    //send error
+    errorEmail.style.display = "block";
+  } else {
+    errorEmail.style.display = "none";
+    form.submit();
+  }
+});

@@ -171,6 +171,7 @@ form.addEventListener("submit", (event) => {
   } else {
     errorEmail.style.display = "none";
     form.submit();
+    localStorage.removeItem("data");
   }
 });
 

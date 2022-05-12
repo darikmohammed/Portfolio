@@ -59,6 +59,18 @@ p {
   background-color: #008552;
 }
 
+/* error-form */
+.error {
+  color: red;
+}
+
+#email_error,
+#message_error,
+#name_error {
+  align-self: flex-start;
+  display: none;
+}
+
 /* heading section and nav */
 
 .desktop-nav {

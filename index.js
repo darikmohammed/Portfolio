@@ -171,3 +171,13 @@ form.addEventListener('submit', (event) => {
     form.submit();
   }
 });
+
+//localStorage
+form.addEventListener("keyup", () => {
+  let data = {
+    name: document.getElementById("name").value,
+    email: document.getElementById("email").value,
+    message: document.getElementById("message").value,
+  };
+  localStorage.setItem("data", JSON.stringify(data));
+});

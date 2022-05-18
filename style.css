@@ -73,6 +73,9 @@ p {
 
 /* heading section and nav */
 
+.heading-logo {
+  width: 20rem;
+}
 .desktop-nav {
   /* display: flex; */
   display: none;

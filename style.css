@@ -73,6 +73,10 @@ p {
 
 /* heading section and nav */
 
+.heading-logo {
+  width: 20rem;
+}
+
 .desktop-nav {
   /* display: flex; */
   display: none;
@@ -501,6 +505,10 @@ textarea {
 .action {
   -webkit-animation: bounce-top 1.5s steps(2, end) infinite both;
   animation: bounce-top 1.5s steps(2, end) both;
+}
+
+a#welcome-logo.logo img {
+  width: 9rem;
 }
 
 @keyframes bounce-top {

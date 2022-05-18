@@ -2,13 +2,13 @@ const mobileMenuOpen = document.querySelector('.mobile-hamburger-btn');
 const mobileMenuClose = document.querySelector('.mobile-close-btn');
 const projects = [
   {
-    name: 'Keeping track of hundreds of components',
-    technologies: ['Codekit', 'Github', 'JavaScript'],
-    featuredImage: 'Portfolio1.png',
+    name: 'World Football Global Summit 2020',
+    technologies: ['HTML5', 'CSS3', 'JavaScript'],
+    featuredImage: 'World-Football-Global-Summit.png',
     description:
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy.",
-    liveLink: '#',
-    linkSource: '#',
+      'An online website for a world football global summit conference. Designed by the guidelines provided by the Microverse (Cindy Shin Design).',
+    liveLink: 'https://darikmohammed.github.io/world-football-summit/',
+    linkSource: 'https://github.com/darikmohammed/world-football-summit',
   },
   {
     name: 'Keeping track of hundreds of components',
@@ -69,14 +69,13 @@ mobileMenuClose.addEventListener('click', () => {
   document.querySelector('.desktop-nav').style.display = 'none';
 });
 
-const menuListItems = document.querySelectorAll('.animate li');
+const menuListItems = document.querySelector('.animate');
 
-menuListItems.forEach((link) => {
-  link.addEventListener('click', () => {
-    document.querySelector('.logo').style.display = 'block';
-    document.querySelector('.mobile-menu-btn').style.display = 'block';
-    document.querySelector('.desktop-nav').style.display = 'none';
-  });
+menuListItems.addEventListener('click', () => {
+  document.querySelector('.logo').style.display = 'block';
+  document.querySelector('.mobile-menu-btn').style.display = 'block';
+  document.querySelector('.desktop-nav').style.display = 'none';
+  window.location.reload();
 });
 
 // popup modal

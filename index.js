@@ -69,14 +69,13 @@ mobileMenuClose.addEventListener("click", () => {
   document.querySelector(".desktop-nav").style.display = "none";
 });
 
-const menuListItems = document.querySelectorAll(".animate li");
+const menuListItems = document.querySelector(".animate");
 
-menuListItems.forEach((link) => {
-  link.addEventListener("click", () => {
-    document.querySelector(".logo").style.display = "block";
-    document.querySelector(".mobile-menu-btn").style.display = "block";
-    document.querySelector(".desktop-nav").style.display = "none";
-  });
+menuListItems.addEventListener("click", () => {
+  document.querySelector(".logo").style.display = "block";
+  document.querySelector(".mobile-menu-btn").style.display = "block";
+  document.querySelector(".desktop-nav").style.display = "none";
+  window.location.reload();
 });
 
 // popup modal

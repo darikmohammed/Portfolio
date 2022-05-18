@@ -503,6 +503,9 @@ textarea {
   animation: bounce-top 1.5s steps(2, end) both;
 }
 
+a#welcome-logo.logo img {
+  width: 9rem;
+}
 @keyframes bounce-top {
   0% {
     -webkit-transform: translateY(-45px);

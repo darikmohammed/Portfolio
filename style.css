@@ -76,6 +76,7 @@ p {
 .heading-logo {
   width: 20rem;
 }
+
 .desktop-nav {
   /* display: flex; */
   display: none;
@@ -509,6 +510,7 @@ textarea {
 a#welcome-logo.logo img {
   width: 9rem;
 }
+
 @keyframes bounce-top {
   0% {
     -webkit-transform: translateY(-45px);

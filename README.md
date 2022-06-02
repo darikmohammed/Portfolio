@@ -18,7 +18,7 @@ The Template is provided by Microverse Inc.
 
 ## Live Demo (if available)
 
-[Live Demo Link](https://darikmohammed.github.io/Portfoilio/)
+[Live Demo Link](https://darikmohammed.github.io/Portfolio/)
 
 ## Getting Started
 
@@ -32,7 +32,7 @@ To get a local copy up and running follow these simple example steps.
 
 ```sh
 
-git clone git@github.com:darikmohammed/Portfoilio.git
+git clone git@github.com:darikmohammed/Portfolio.git
 
 ```
 

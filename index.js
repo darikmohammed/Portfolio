@@ -11,13 +11,13 @@ const projects = [
     linkSource: 'https://github.com/darikmohammed/world-football-summit',
   },
   {
-    name: 'Keeping track of hundreds of components',
-    technologies: ['Codekit', 'Github', 'JavaScript'],
-    featuredImage: 'Portfolio1.png',
+    name: 'To-do List',
+    technologies: ['HTML5', 'Github', 'JavaScript', 'CSS3', 'Webpack'],
+    featuredImage: 'ToDo-List.png',
     description:
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer ",
-    liveLink: '#',
-    linkSource: '#',
+      'To-do list is a tool that helps to organize your day. It simply lists the things that you need to do and allows you to mark them as complete. A simple website that allows user to create a To-do list.',
+    liveLink: 'https://darikmohammed.github.io/TodoList-Webpack/',
+    linkSource: 'https://github.com/darikmohammed/TodoList-Webpack',
   },
   {
     name: 'Keeping track of hundreds of components',
@@ -111,12 +111,13 @@ const popupModals = document.querySelectorAll('.popup-window');
 const closeModal = document.querySelector('.close-modal-btn');
 function openModal(element) {
   const projectIndex = element.dataset.index;
-  document.querySelector('.modal-header').textContent = projects[projectIndex].name;
+  document.querySelector('.modal-header').textContent =
+    projects[projectIndex].name;
   document
     .querySelector('.modal-project-image')
     .setAttribute(
       'src',
-      `./icons/Projects/${projects[projectIndex].featuredImage}`,
+      `./icons/Projects/${projects[projectIndex].featuredImage}`
     );
   document
     .querySelector('.modal-project-image')
@@ -138,7 +139,8 @@ function openModal(element) {
     technology += `<div class="tag">${tech}</div>`;
   });
   document.querySelector('.project-codekit .tags').innerHTML = technology;
-  document.querySelector('.modal-project-description').textContent = projects[projectIndex].description;
+  document.querySelector('.modal-project-description').textContent =
+    projects[projectIndex].description;
   document.querySelector('.modal').style.display = 'flex';
 }
 

@@ -11,13 +11,13 @@ const projects = [
     linkSource: 'https://github.com/darikmohammed/world-football-summit',
   },
   {
-    name: 'Keeping track of hundreds of components',
-    technologies: ['Codekit', 'Github', 'JavaScript'],
-    featuredImage: 'Portfolio1.png',
+    name: 'To-do List',
+    technologies: ['HTML5', 'Github', 'JavaScript', 'CSS3', 'Webpack'],
+    featuredImage: 'ToDo-List.png',
     description:
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer ",
-    liveLink: '#',
-    linkSource: '#',
+      'To-do list is a tool that helps to organize your day. It simply lists the things that you need to do and allows you to mark them as complete. A simple website that allows user to create a To-do list.',
+    liveLink: 'https://darikmohammed.github.io/TodoList-Webpack/',
+    linkSource: 'https://github.com/darikmohammed/TodoList-Webpack',
   },
   {
     name: 'Keeping track of hundreds of components',

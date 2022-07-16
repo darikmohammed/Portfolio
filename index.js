@@ -20,40 +20,30 @@ const projects = [
     linkSource: 'https://github.com/darikmohammed/TodoList-Webpack',
   },
   {
-    name: 'Keeping track of hundreds of components',
-    technologies: ['Codekit', 'Github', 'JavaScript'],
-    featuredImage: 'Portfolio1.png',
+    name: 'Mealii Restaurant',
+    technologies: [
+      'API',
+      'Webpack',
+      'JavaScript',
+      'HTML5',
+      'CSS3',
+      'Jest-Test',
+      'ES6-JavaScript',
+    ],
+    featuredImage: 'Melii-Restaurant.png',
     description:
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea",
-    liveLink: '#',
-    linkSource: '#',
+      'The Mealii Capstone website displays meals served at Mealii Meal Restourant. It also allows you to search by meal name, filter by category, comment and like on any specific meal. All data is preserved thanks to the TheMealDB API service.',
+    liveLink: 'https://darikmohammed.github.io/Mealii-Capstone/',
+    linkSource: 'https://github.com/darikmohammed/Mealii-Capstone',
   },
   {
-    name: 'Keeping track of hundreds of components',
-    technologies: ['Codekit', 'Github', 'JavaScript'],
-    featuredImage: 'Portfolio1.png',
+    name: 'Book Store',
+    technologies: ['React', 'Redux', 'Jest-test'],
+    featuredImage: 'Book-Store.png',
     description:
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea",
+      'Book Store is a react application which have a basic functionality of Display a list of books, Add a book, and Remove a selected book.',
     liveLink: '#',
-    linkSource: '#',
-  },
-  {
-    name: 'Keeping track of hundreds of components',
-    technologies: ['Codekit', 'Github', 'JavaScript'],
-    featuredImage: 'Portfolio1.png',
-    description:
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea",
-    liveLink: '#',
-    linkSource: '#',
-  },
-  {
-    name: 'Keeping track of hundreds of components',
-    technologies: ['Codekit', 'Github', 'JavaScript'],
-    featuredImage: 'Portfolio1.png',
-    description:
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea",
-    liveLink: '#',
-    linkSource: '#',
+    linkSource: 'https://github.com/darikmohammed/Bookstore',
   },
 ];
 
@@ -111,12 +101,13 @@ const popupModals = document.querySelectorAll('.popup-window');
 const closeModal = document.querySelector('.close-modal-btn');
 function openModal(element) {
   const projectIndex = element.dataset.index;
-  document.querySelector('.modal-header').textContent = projects[projectIndex].name;
+  document.querySelector('.modal-header').textContent =
+    projects[projectIndex].name;
   document
     .querySelector('.modal-project-image')
     .setAttribute(
       'src',
-      `./icons/Projects/${projects[projectIndex].featuredImage}`,
+      `./icons/Projects/${projects[projectIndex].featuredImage}`
     );
   document
     .querySelector('.modal-project-image')
@@ -138,7 +129,8 @@ function openModal(element) {
     technology += `<div class="tag">${tech}</div>`;
   });
   document.querySelector('.project-codekit .tags').innerHTML = technology;
-  document.querySelector('.modal-project-description').textContent = projects[projectIndex].description;
+  document.querySelector('.modal-project-description').textContent =
+    projects[projectIndex].description;
   document.querySelector('.modal').style.display = 'flex';
 }
 

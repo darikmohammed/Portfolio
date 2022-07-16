@@ -101,13 +101,12 @@ const popupModals = document.querySelectorAll('.popup-window');
 const closeModal = document.querySelector('.close-modal-btn');
 function openModal(element) {
   const projectIndex = element.dataset.index;
-  document.querySelector('.modal-header').textContent =
-    projects[projectIndex].name;
+  document.querySelector('.modal-header').textContent = projects[projectIndex].name;
   document
     .querySelector('.modal-project-image')
     .setAttribute(
       'src',
-      `./icons/Projects/${projects[projectIndex].featuredImage}`
+      `./icons/Projects/${projects[projectIndex].featuredImage}`,
     );
   document
     .querySelector('.modal-project-image')
@@ -129,8 +128,7 @@ function openModal(element) {
     technology += `<div class="tag">${tech}</div>`;
   });
   document.querySelector('.project-codekit .tags').innerHTML = technology;
-  document.querySelector('.modal-project-description').textContent =
-    projects[projectIndex].description;
+  document.querySelector('.modal-project-description').textContent = projects[projectIndex].description;
   document.querySelector('.modal').style.display = 'flex';
 }
 

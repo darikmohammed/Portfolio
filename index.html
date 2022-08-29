@@ -1,219 +1,278 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Portfolio</title>
+    <link rel="icon" href="./icons/favicon.ico" />
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="stylesheet" href="style.css" />
-  <title>Portfolio</title>
-  <link rel="icon" href="./icons/favicon.ico">
-</head>
-
-<body>
-  <header>
-    <div class="header-container">
-      <a href="#Home" id="welcome-logo" class="logo"><img src="./icons/logo.png" alt=""></a>
-      <nav class="mobile-menu-btn">
-        <button type="button" class="mobile-btn mobile-hamburger-btn">
-          <img src="./icons/mobile-menu-btn.svg" alt="mobile menu" />
-        </button>
-      </nav>
-      <nav class="desktop-nav">
-        <button type="button" class="mobile-btn mobile-close-btn">
-          <img src="./icons/Icon-Cancel.png" alt="mobile close button" />
-        </button>
-        <ul class="animate">
-          <li><a href="#Portoflio">Portoflio</a></li>
-          <li><a href="#About">About</a></li>
-          <li><a href="#Contact">Contact</a></li>
-        </ul>
-      </nav>
-    </div>
-  </header>
-  <main>
-    <section id="Home" class="headline">
-      <div class="primary-headline">
-        <h1 class="main-headline">Hey there. I'm <img src="./icons/logo.png" alt="Darik Mohammed" class="heading-logo">
-        </h1>
-        <h2 class="primary-color supporting-headline">
-          I'm a software developer
-        </h2>
-      </div>
-      <div class="supporting-text">
-        <p>
-          I can help you build a product , feature or website Look through
-          some of my work and experience! If you like what you see and have a
-          project you need coded, don’t hestiate to contact me.
-        </p>
-      </div>
-      <div class="social-icon">
-        <ul class="socials">
-          <li class="social">
-            <a href="https://twitter.com/r_darik"><img src="./icons/twitter.svg" alt="twitter" /></a>
-          </li>
-          <li class="social">
-            <a href="https://www.linkedin.com/in/darik-mohammed/"><img src="./icons/Linkedin.svg" alt="linkedin" /></a>
-          </li>
-          <li class="social">
-            <a href="https://medium.com/@r.m.darik"><img src="./icons/medium.svg" alt="medium" /></a>
-          </li>
-          <li class="social">
-            <a href="https://github.com/darikmohammed"><img src="./icons/github.svg" alt="github" /></a>
-          </li>
-          <li class="social">
-            <a href="https://angel.co/u/darik-mohammed"><img src="./icons/angellist.svg" alt="angellist" /></a>
-          </li>
-        </ul>
-      </div>
-      <a href="#Portoflio" class="action">
-        <img src="./icons/Action.svg" alt="action" />
-      </a>
-    </section>
-
-    <section id="Portoflio" class="recent-works">
-      <div class="text">
-        <h2>My Recent Works</h2>
-        <img src="./icons/Indicator.svg" alt="Recent works indicator" />
-      </div>
-      <div class="work-cards"></div>
-
-      <!-- project-modals  -->
-      <div class="modal">
-        <div class="modal-contain">
-          <!-- contents -->
-          <button type="button" class="close-modal-btn">
-            <img src="./icons/Icon.svg" alt="Close Project" />
+  <body>
+    <header>
+      <div class="header-container">
+        <a href="#Home" id="welcome-logo" class="logo"
+          ><img src="./icons/logo.png" alt=""
+        /></a>
+        <nav class="mobile-menu-btn">
+          <button type="button" class="mobile-btn mobile-hamburger-btn">
+            <img src="./icons/mobile-menu-btn.svg" alt="mobile menu" />
           </button>
-          <div class="project-img">
-            <img src="#" alt="" class="modal-project-image" />
-          </div>
-          <div class="project-intro">
-            <div class="project-title">
-              <h2 class="modal-header">title header</h2>
+        </nav>
+        <nav class="desktop-nav">
+          <button type="button" class="mobile-btn mobile-close-btn">
+            <img src="./icons/Icon-Cancel.png" alt="mobile close button" />
+          </button>
+          <ul class="animate">
+            <li><a href="#Portoflio">Portoflio</a></li>
+            <li><a href="#About">About</a></li>
+            <li><a href="#Contact">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <main>
+      <section id="Home" class="headline">
+        <div class="primary-headline">
+          <h1 class="main-headline">
+            Hey there. I'm
+            <img
+              src="./icons/logo.png"
+              alt="Darik Mohammed"
+              class="heading-logo"
+            />
+          </h1>
+          <h2 class="primary-color supporting-headline">
+            I'm a software developer
+          </h2>
+        </div>
+        <div class="supporting-text">
+          <p>
+            I can help you build a product , feature or website Look through
+            some of my work and experience! If you like what you see and have a
+            project you need coded, don’t hestiate to contact me.
+          </p>
+        </div>
+        <div class="social-icon">
+          <ul class="socials">
+            <li class="social">
+              <a href="https://twitter.com/r_darik"
+                ><img src="./icons/twitter.svg" alt="twitter"
+              /></a>
+            </li>
+            <li class="social">
+              <a href="https://www.linkedin.com/in/darik-mohammed/"
+                ><img src="./icons/Linkedin.svg" alt="linkedin"
+              /></a>
+            </li>
+            <li class="social">
+              <a href="https://medium.com/@r.m.darik"
+                ><img src="./icons/medium.svg" alt="medium"
+              /></a>
+            </li>
+            <li class="social">
+              <a href="https://github.com/darikmohammed"
+                ><img src="./icons/github.svg" alt="github"
+              /></a>
+            </li>
+            <li class="social">
+              <a href="https://angel.co/u/darik-mohammed"
+                ><img src="./icons/angellist.svg" alt="angellist"
+              /></a>
+            </li>
+          </ul>
+        </div>
+        <a href="#Portoflio" class="action">
+          <img src="./icons/Action.svg" alt="action" />
+        </a>
+      </section>
+
+      <section id="Portoflio" class="recent-works">
+        <div class="text">
+          <h2>My Recent Works</h2>
+          <img src="./icons/Indicator.svg" alt="Recent works indicator" />
+        </div>
+        <div class="work-cards"></div>
+
+        <!-- project-modals  -->
+        <div class="modal">
+          <div class="modal-contain">
+            <!-- contents -->
+            <button type="button" class="close-modal-btn">
+              <img src="./icons/Icon.svg" alt="Close Project" />
+            </button>
+            <div class="project-img">
+              <img src="#" alt="" class="modal-project-image" />
             </div>
-            <div class="project-btn desktop-view-btn">
-              <a href="" class="desktop-see-live-btn btn">
+            <div class="project-intro">
+              <div class="project-title">
+                <h2 class="modal-header">title header</h2>
+              </div>
+              <div class="project-btn desktop-view-btn">
+                <a href="" class="desktop-see-live-btn btn">
+                  See live
+                  <img src="./icons/SeeProjectIcon.svg" alt="See live" />
+                </a>
+                <a href="" class="desktop-see-source-btn btn">
+                  See Source <img src="./icons/Vector.svg" alt="" />
+                </a>
+              </div>
+            </div>
+            <div class="project-codekit">
+              <div class="tags"></div>
+            </div>
+            <div class="project-description">
+              <p class="modal-project-description"></p>
+            </div>
+            <div class="project-btn mobile-view-btn">
+              <a href="" class="moblie-see-live-btn btn">
                 See live
                 <img src="./icons/SeeProjectIcon.svg" alt="See live" />
               </a>
-              <a href="" class="desktop-see-source-btn btn">
+              <a href="" class="moblie-see-source-btn btn">
                 See Source <img src="./icons/Vector.svg" alt="" />
               </a>
             </div>
           </div>
-          <div class="project-codekit">
-            <div class="tags"></div>
-          </div>
-          <div class="project-description">
-            <p class="modal-project-description"></p>
-          </div>
-          <div class="project-btn mobile-view-btn">
-            <a href="" class="moblie-see-live-btn btn">
-              See live
-              <img src="./icons/SeeProjectIcon.svg" alt="See live" />
-            </a>
-            <a href="" class="moblie-see-source-btn btn">
-              See Source <img src="./icons/Vector.svg" alt="" />
-            </a>
-          </div>
         </div>
-      </div>
-    </section>
+      </section>
 
-    <section id="About" class="about-me">
-      <div class="about-text">
-        <div class="about-me-img"></div>
-        <h2>About me</h2>
-        <p>
-          I can help you build a product , feature or website Look through
-          some of my work and experience! If you like what you see and have a
-          project you need coded, don’t hestiate to contact me.
-        </p>
-        <button type="button" class="btn">Get My Resume</button>
-        <div class="about-me-left-img"></div>
-      </div>
-      <div class="about-cards">
-        <div class="card">
-          <img src="./icons/icon-languages.svg" alt="Languages" />
-          <h3 class="card-discription">Languages</h3>
-          <ul class="about-catagories">
-            <li>JavaScript</li>
-            <li>Ruby</li>
-            <li>Html</li>
-            <li>CSS</li>
+      <section id="About" class="about-me">
+        <div class="about-text">
+          <div class="about-me-img"></div>
+          <h2>About me</h2>
+          <p>
+            I can help you build a product , feature or website Look through
+            some of my work and experience! If you like what you see and have a
+            project you need coded, don’t hestiate to contact me.
+          </p>
+          <a href="./download//Darik-Resume.pdf" download="">
+            <button type="button" class="btn">Get My Resume</button>
+          </a>
+          <div class="about-me-left-img"></div>
+        </div>
+        <div class="about-cards">
+          <div class="card">
+            <img src="./icons/icon-languages.svg" alt="Languages" />
+            <h3 class="card-discription">Languages</h3>
+            <ul class="about-catagories">
+              <li>JavaScript</li>
+              <li>Ruby</li>
+              <li>Html</li>
+              <li>CSS</li>
+            </ul>
+          </div>
+          <div class="card">
+            <img src="./icons/icon-frameworks.svg" alt="frameworks" />
+            <h3 class="card-discription">Frameworks</h3>
+            <ul class="about-catagories">
+              <li>Bootstrap</li>
+              <li>Ruby on rails</li>
+              <li>RSpec</li>
+              <li>Capybara</li>
+              <li>Selenium</li>
+            </ul>
+          </div>
+          <div class="card">
+            <img src="./icons/icon-skills.svg" alt="" />
+            <h3 class="card-discription">Skills</h3>
+            <ul class="about-catagories">
+              <li>Codekit</li>
+              <li>GitHub</li>
+              <li>Codepen</li>
+              <li>Gitlab</li>
+              <li>Terminal</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+    </main>
+    <!-- Contact form Start here -->
+    <footer>
+      <section id="Contact" class="flex-container">
+        <div class="form-container">
+          <h2 class="flex-item-1">
+            I'm always interested in hearing about new projects, so if you'd
+            like to chat please get in touch.
+          </h2>
+          <form
+            action="https://formspree.io/f/xoqrpder"
+            method="POST"
+            class="flex-item-2"
+            id="contact-form"
+          >
+            <input
+              type="text"
+              name="name"
+              id="name"
+              required
+              maxlength="30"
+              placeholder="Full Name"
+            />
+            <small id="name_error" class="error"
+              >Please enter a valid Full name</small
+            >
+            <input
+              type="email"
+              name="email"
+              id="email"
+              required
+              placeholder="Email Address"
+            />
+            <small id="email_error" class="error"
+              >Please enter a lowercase Email.</small
+            >
+            <textarea
+              cols="27"
+              rows="10"
+              id="message"
+              name="message"
+              maxlength="500"
+              placeholder="Enter text here"
+              required
+            ></textarea>
+            <small id="message_error" class="error"
+              >Please enter a valid Message</small
+            >
+            <button type="submit" class="btn">GET in touch</button>
+          </form>
+        </div>
+        <div class="contact-img-left-1"></div>
+        <div class="contact-img-left-2"></div>
+        <div class="social-icon flex-item-3">
+          <ul class="socials">
+            <li class="social">
+              <a href="https://twitter.com/r_darik"
+                ><img src="./icons/twitter.svg" alt="twitter"
+              /></a>
+            </li>
+            <li class="social">
+              <a href="https://www.linkedin.com/in/darik-mohammed/"
+                ><img src="./icons/Linkedin.svg" alt="linkedin"
+              /></a>
+            </li>
+            <li class="social">
+              <a href="https://medium.com/@r.m.darik"
+                ><img src="./icons/medium.svg" alt="medium"
+              /></a>
+            </li>
+            <li class="social">
+              <a href="https://github.com/darikmohammed"
+                ><img src="./icons/github.svg" alt="github"
+              /></a>
+            </li>
+            <li class="social">
+              <a href="https://angel.co/u/darik-mohammed"
+                ><img src="./icons/angellist.svg" alt="angellist"
+              /></a>
+            </li>
           </ul>
         </div>
-        <div class="card">
-          <img src="./icons/icon-frameworks.svg" alt="frameworks" />
-          <h3 class="card-discription">Frameworks</h3>
-          <ul class="about-catagories">
-            <li>Bootstrap</li>
-            <li>Ruby on rails</li>
-            <li>RSpec</li>
-            <li>Capybara</li>
-            <li>Selenium</li>
-          </ul>
-        </div>
-        <div class="card">
-          <img src="./icons/icon-skills.svg" alt="" />
-          <h3 class="card-discription">Skills</h3>
-          <ul class="about-catagories">
-            <li>Codekit</li>
-            <li>GitHub</li>
-            <li>Codepen</li>
-            <li>Gitlab</li>
-            <li>Terminal</li>
-          </ul>
-        </div>
-      </div>
-    </section>
-  </main>
-  <!-- Contact form Start here -->
-  <footer>
-    <section id="Contact" class="flex-container">
-      <div class="form-container">
-        <h2 class="flex-item-1">
-          I'm always interested in hearing about new projects, so if you'd
-          like to chat please get in touch.
-        </h2>
-        <form action="https://formspree.io/f/xoqrpder" method="POST" class="flex-item-2" id="contact-form">
-          <input type="text" name="name" id="name" required maxlength="30" placeholder="Full Name" />
-          <small id="name_error" class="error">Please enter a valid Full name</small>
-          <input type="email" name="email" id="email" required placeholder="Email Address" />
-          <small id="email_error" class="error">Please enter a lowercase Email.</small>
-          <textarea cols="27" rows="10" id="message" name="message" maxlength="500" placeholder="Enter text here"
-            required></textarea>
-          <small id="message_error" class="error">Please enter a valid Message</small>
-          <button type="submit" class="btn">GET in touch</button>
-        </form>
-      </div>
-      <div class="contact-img-left-1"></div>
-      <div class="contact-img-left-2"></div>
-      <div class="social-icon flex-item-3">
-        <ul class="socials">
-          <li class="social">
-            <a href="https://twitter.com/r_darik"><img src="./icons/twitter.svg" alt="twitter" /></a>
-          </li>
-          <li class="social">
-            <a href="https://www.linkedin.com/in/darik-mohammed/"><img src="./icons/Linkedin.svg" alt="linkedin" /></a>
-          </li>
-          <li class="social">
-            <a href="https://medium.com/@r.m.darik"><img src="./icons/medium.svg" alt="medium" /></a>
-          </li>
-          <li class="social">
-            <a href="https://github.com/darikmohammed"><img src="./icons/github.svg" alt="github" /></a>
-          </li>
-          <li class="social">
-            <a href="https://angel.co/u/darik-mohammed"><img src="./icons/angellist.svg" alt="angellist" /></a>
-          </li>
-        </ul>
-      </div>
-      <span class="flex-item-4">r.m.darik@gmail.com</span>
-      <div class="contact-bg-img"></div>
-    </section>
-  </footer>
-  <script src="index.js"></script>
-</body>
-
+        <span class="flex-item-4">r.m.darik@gmail.com</span>
+        <div class="contact-bg-img"></div>
+      </section>
+    </footer>
+    <script src="index.js"></script>
+  </body>
 </html>

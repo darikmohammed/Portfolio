@@ -2,13 +2,13 @@ const mobileMenuOpen = document.querySelector('.mobile-hamburger-btn');
 const mobileMenuClose = document.querySelector('.mobile-close-btn');
 const projects = [
   {
-    name: 'World Football Global Summit 2020',
-    technologies: ['HTML5', 'CSS3', 'JavaScript'],
-    featuredImage: 'World-Football-Global-Summit.png',
+    name: 'To-do List',
+    technologies: ['HTML5', 'Github', 'JavaScript', 'React', 'Redux'],
+    featuredImage: 'ToDo-List.png',
     description:
-      'An online website for a world football global summit conference. Designed by the guidelines provided by the Microverse (Cindy Shin Design).',
-    liveLink: 'https://darikmohammed.github.io/world-football-summit/',
-    linkSource: 'https://github.com/darikmohammed/world-football-summit',
+     'Space Travelers Hub is a website built with React and Redux. It is a single page App (SPA)',
+    liveLink: 'https://space-traveler-hub-microverse.herokuapp.com/',
+    linkSource: 'https://github.com/darikmohammed/Space_Travelers_Hub',
   },
   {
     name: 'To-do List',
@@ -18,6 +18,15 @@ const projects = [
       'To-do list is a tool that helps to organize your day. It simply lists the things that you need to do and allows you to mark them as complete. A simple website that allows user to create a To-do list.',
     liveLink: 'https://darikmohammed.github.io/TodoList-Webpack/',
     linkSource: 'https://github.com/darikmohammed/TodoList-Webpack',
+  },
+  {
+    name: 'World Football Global Summit 2020',
+    technologies: ['HTML5', 'CSS3', 'JavaScript'],
+    featuredImage: 'World-Football-Global-Summit.png',
+    description:
+      'An online website for a world football global summit conference. Designed by the guidelines provided by the Microverse (Cindy Shin Design).',
+    liveLink: 'https://darikmohammed.github.io/world-football-summit/',
+    linkSource: 'https://github.com/darikmohammed/world-football-summit',
   },
   {
     name: 'Mealii Restaurant',

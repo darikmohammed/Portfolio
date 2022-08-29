@@ -2,9 +2,9 @@ const mobileMenuOpen = document.querySelector('.mobile-hamburger-btn');
 const mobileMenuClose = document.querySelector('.mobile-close-btn');
 const projects = [
   {
-    name: 'To-do List',
+    name: 'Space Travelers Hub',
     technologies: ['HTML5', 'Github', 'JavaScript', 'React', 'Redux'],
-    featuredImage: 'ToDo-List.png',
+    featuredImage: 'Space-Travelers-Hub.png',
     description:
      'Space Travelers Hub is a website built with React and Redux. It is a single page App (SPA)',
     liveLink: 'https://space-traveler-hub-microverse.herokuapp.com/',

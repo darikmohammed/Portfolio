@@ -2,11 +2,20 @@ const mobileMenuOpen = document.querySelector('.mobile-hamburger-btn');
 const mobileMenuClose = document.querySelector('.mobile-close-btn');
 const projects = [
   {
+    name: 'ezCar',
+    technologies: ['React', 'Redux', 'Ruby', 'Ruby on Rails'],
+    featuredImage: 'ezCar.png',
+    description:
+      'This application allows users to book a car present in our database. The user can set the reservation date and final date for a selected car. If the user is an administrator they can upload a car and delete it from our database.',
+    liveLink: 'https://ezcar.netlify.app/',
+    linkSource: 'https://github.com/darikmohammed/ezCar_frontend',
+  },
+  {
     name: 'Space Travelers Hub',
     technologies: ['HTML5', 'Github', 'JavaScript', 'React', 'Redux'],
     featuredImage: 'Space-Travelers-Hub.png',
     description:
-     'Space Travelers Hub is a website built with React and Redux. It is a single page App (SPA)',
+      'Space Travelers Hub is a website built with React and Redux. It is a single page App (SPA)',
     liveLink: 'https://space-traveler-hub-microverse.herokuapp.com/',
     linkSource: 'https://github.com/darikmohammed/Space_Travelers_Hub',
   },

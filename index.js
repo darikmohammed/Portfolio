@@ -119,12 +119,13 @@ const popupModals = document.querySelectorAll('.popup-window');
 const closeModal = document.querySelector('.close-modal-btn');
 function openModal(element) {
   const projectIndex = element.dataset.index;
-  document.querySelector('.modal-header').textContent = projects[projectIndex].name;
+  document.querySelector('.modal-header').textContent =
+    projects[projectIndex].name;
   document
     .querySelector('.modal-project-image')
     .setAttribute(
       'src',
-      `./icons/Projects/${projects[projectIndex].featuredImage}`,
+      `./icons/Projects/${projects[projectIndex].featuredImage}`
     );
   document
     .querySelector('.modal-project-image')
@@ -146,7 +147,8 @@ function openModal(element) {
     technology += `<div class="tag">${tech}</div>`;
   });
   document.querySelector('.project-codekit .tags').innerHTML = technology;
-  document.querySelector('.modal-project-description').textContent = projects[projectIndex].description;
+  document.querySelector('.modal-project-description').textContent =
+    projects[projectIndex].description;
   document.querySelector('.modal').style.display = 'flex';
 }
 
@@ -163,7 +165,8 @@ closeModal.addEventListener('click', () => {
 const form = document.querySelector('#contact-form');
 const errorEmail = document.querySelector('#email_error');
 function validateEmail(input) {
-  const emailRegex = /^[a-z_\-0-9.*#$!~%^&-+?|]+@+[a-z\-0-9]+(.com)$/gm;
+  const emailRegex = /^\w+([.-]?\w+)*@\w+([.-]?\w+)*(\.\w{2,3})+$/;
+  // const emailRegex = /^[a-z_\-0-9.*#$!~%^&-+?|]+@+[a-z\-0-9]+(.com)$/gm;
   return emailRegex.test(input);
 }
 form.addEventListener('submit', (event) => {

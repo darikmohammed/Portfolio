@@ -3,7 +3,7 @@ const mobileMenuClose = document.querySelector('.mobile-close-btn');
 const projects = [
   {
     name: 'ezCar',
-    technologies: ['React', 'Redux', 'Ruby', 'Ruby on Rails'],
+    technologies: ['React', 'Redux', 'Ruby', 'Ruby on Rails', 'Tailwind css', 'API'],
     featuredImage: 'ezCar.png',
     description:
       'This application allows users to book a car present in our database. The user can set the reservation date and final date for a selected car. If the user is an administrator they can upload a car and delete it from our database.',

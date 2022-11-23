@@ -2,13 +2,22 @@ const mobileMenuOpen = document.querySelector('.mobile-hamburger-btn');
 const mobileMenuClose = document.querySelector('.mobile-close-btn');
 const projects = [
   {
-    name: 'World Football Global Summit 2020',
-    technologies: ['HTML5', 'CSS3', 'JavaScript'],
-    featuredImage: 'World-Football-Global-Summit.png',
+    name: 'ezCar',
+    technologies: ['React', 'Redux', 'Ruby', 'Ruby on Rails', 'Tailwind css', 'API'],
+    featuredImage: 'ezCar.png',
     description:
-      'An online website for a world football global summit conference. Designed by the guidelines provided by the Microverse (Cindy Shin Design).',
-    liveLink: 'https://darikmohammed.github.io/world-football-summit/',
-    linkSource: 'https://github.com/darikmohammed/world-football-summit',
+      'This application allows users to book a car present in our database. The user can set the reservation date and final date for a selected car. If the user is an administrator they can upload a car and delete it from our database.',
+    liveLink: 'https://ezcar.netlify.app/',
+    linkSource: 'https://github.com/darikmohammed/ezCar_frontend',
+  },
+  {
+    name: 'Space Travelers Hub',
+    technologies: ['HTML5', 'Github', 'JavaScript', 'React', 'Redux'],
+    featuredImage: 'Space-Travelers-Hub.png',
+    description:
+      'Space Travelers Hub is a website built with React and Redux. It is a single page App (SPA)',
+    liveLink: 'https://space-traveler-hub-microverse.herokuapp.com/',
+    linkSource: 'https://github.com/darikmohammed/Space_Travelers_Hub',
   },
   {
     name: 'To-do List',
@@ -20,40 +29,39 @@ const projects = [
     linkSource: 'https://github.com/darikmohammed/TodoList-Webpack',
   },
   {
-    name: 'Keeping track of hundreds of components',
-    technologies: ['Codekit', 'Github', 'JavaScript'],
-    featuredImage: 'Portfolio1.png',
+    name: 'World Football Global Summit 2020',
+    technologies: ['HTML5', 'CSS3', 'JavaScript'],
+    featuredImage: 'World-Football-Global-Summit.png',
     description:
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea",
-    liveLink: '#',
-    linkSource: '#',
+      'An online website for a world football global summit conference. Designed by the guidelines provided by the Microverse (Cindy Shin Design).',
+    liveLink: 'https://darikmohammed.github.io/world-football-summit/',
+    linkSource: 'https://github.com/darikmohammed/world-football-summit',
   },
   {
-    name: 'Keeping track of hundreds of components',
-    technologies: ['Codekit', 'Github', 'JavaScript'],
-    featuredImage: 'Portfolio1.png',
+    name: 'Mealii Restaurant',
+    technologies: [
+      'API',
+      'Webpack',
+      'JavaScript',
+      'HTML5',
+      'CSS3',
+      'Jest-Test',
+      'ES6-JavaScript',
+    ],
+    featuredImage: 'Melii-Restaurant.png',
     description:
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea",
-    liveLink: '#',
-    linkSource: '#',
+      'The Mealii Capstone website displays meals served at Mealii Meal Restourant. It also allows you to search by meal name, filter by category, comment and like on any specific meal. All data is preserved thanks to the TheMealDB API service.',
+    liveLink: 'https://darikmohammed.github.io/Mealii-Capstone/',
+    linkSource: 'https://github.com/darikmohammed/Mealii-Capstone',
   },
   {
-    name: 'Keeping track of hundreds of components',
-    technologies: ['Codekit', 'Github', 'JavaScript'],
-    featuredImage: 'Portfolio1.png',
+    name: 'Book Store',
+    technologies: ['React', 'Redux', 'Jest-test'],
+    featuredImage: 'Book-Store.png',
     description:
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea",
+      'Book Store is a react application which have a basic functionality of Display a list of books, Add a book, and Remove a selected book.',
     liveLink: '#',
-    linkSource: '#',
-  },
-  {
-    name: 'Keeping track of hundreds of components',
-    technologies: ['Codekit', 'Github', 'JavaScript'],
-    featuredImage: 'Portfolio1.png',
-    description:
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea",
-    liveLink: '#',
-    linkSource: '#',
+    linkSource: 'https://github.com/darikmohammed/Bookstore',
   },
 ];
 
@@ -155,7 +163,8 @@ closeModal.addEventListener('click', () => {
 const form = document.querySelector('#contact-form');
 const errorEmail = document.querySelector('#email_error');
 function validateEmail(input) {
-  const emailRegex = /^[a-z_\-0-9.*#$!~%^&-+?|]+@+[a-z\-0-9]+(.com)$/gm;
+  const emailRegex = /^\w+([.-]?\w+)*@\w+([.-]?\w+)*(\.\w{2,3})+$/;
+  // const emailRegex = /^[a-z_\-0-9.*#$!~%^&-+?|]+@+[a-z\-0-9]+(.com)$/gm;
   return emailRegex.test(input);
 }
 form.addEventListener('submit', (event) => {
